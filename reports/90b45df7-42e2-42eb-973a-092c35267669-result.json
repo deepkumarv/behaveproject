@@ -1,0 +1,53 @@
+{
+  "name": "Login to OrangeHRM with valid parameters",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given I launch Chrome Browser",
+      "status": "passed",
+      "start": 1657186651271,
+      "stop": 1657186653403
+    },
+    {
+      "name": "When I open orange HRM Home Page",
+      "status": "passed",
+      "start": 1657186653404,
+      "stop": 1657186657399
+    },
+    {
+      "name": "And Enter username \"admin\" and password \"admin123\"",
+      "status": "passed",
+      "start": 1657186657400,
+      "stop": 1657186662453
+    },
+    {
+      "name": "Then User must successfully login to Dashboard page",
+      "status": "passed",
+      "start": 1657186662453,
+      "stop": 1657186662560
+    }
+  ],
+  "start": 1657186651270,
+  "stop": 1657186662673,
+  "uuid": "ba31ca25-acf6-4999-9720-6819f964e442",
+  "historyId": "b684803586b74d84482081935662a1ab",
+  "fullName": "OrangeHRM Login: Login to OrangeHRM with valid parameters",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "OrangeHRM Login"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}
